@@ -68,4 +68,5 @@ public class PyramidRepositoryImplTest {
   public void sortTestNull() throws PyramidException {
 	  pyramidRepository.sort(null);
   }
+  
 }
