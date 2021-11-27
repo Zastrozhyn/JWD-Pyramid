@@ -50,7 +50,7 @@ public class PyramidRepositoryImplTest {
 
   @Test(expectedExceptions =PyramidException.class)
   public void queryTestNull() throws PyramidException {
-	  pyramidRepository.query(null)   ; 
+	  pyramidRepository.query(null); 
   }
 
   @Test(expectedExceptions =PyramidException.class)
