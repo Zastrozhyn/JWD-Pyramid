@@ -128,6 +128,15 @@ public class PyramidRepositoryImpl implements PyramidRepository {
     public int hashCode() {
         return pyramidList.hashCode();
     }
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("PyramidRepositoryImpl [pyramidList=");
+		builder.append(pyramidList);
+		builder.append("]");
+		return builder.toString();
+	}
     
 
 }

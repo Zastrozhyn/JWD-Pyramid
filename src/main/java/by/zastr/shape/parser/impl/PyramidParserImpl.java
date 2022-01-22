@@ -13,7 +13,7 @@ import by.zastr.shape.util.PyramidValidator;
 
 public class PyramidParserImpl implements PyramidParser {
 	private static Logger logger=LogManager.getLogger();
-	private static final String DELIMITER_REGEX = "\\s+";
+	private static String DELIMITER_REGEX = "\\s+";
  
 	@Override
 	public List<int[]> parseToArray (List<String> list) throws PyramidException{

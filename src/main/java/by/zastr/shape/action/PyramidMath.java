@@ -8,4 +8,5 @@ public interface PyramidMath {
 	public double pyramidVolumeRatio(Pyramid pyramid,int z);
 	public boolean isBaseOnCoordinatePlane(Pyramid pyramid);
 	public boolean isPyramid(Pyramid pyramid);
+	
 }
